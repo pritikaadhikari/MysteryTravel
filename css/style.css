@@ -1,0 +1,105 @@
+
+
+.header-container{
+  display: flex;
+ 
+ 
+}
+#main-title{
+  padding-left:6px;
+ 
+}
+#head-ul{
+ list-style: none;
+ display: flex;
+ padding-top: 10px;
+ gap: 10px;
+ align-self: flex-end;
+ margin-left: auto;
+ font-size: large;
+ padding-right: 50px;
+ 
+ 
+}
+.text-blue{
+ color: #00bfff;
+
+}
+.map-image{
+  border-radius: 5%;
+  height: 400px;}
+
+.test-img 
+{ position: relative; width: 180px; height: 180px; overflow: hidden; 
+  border-radius: 50%; 
+} 
+
+
+.review-section{
+  background-color: #e9ecef;
+  display: flex;
+  text-align: center;
+  padding-top: 30px;
+  
+  
+}
+.logo{
+  background-color: #e9ecef;
+  padding-top: 30px;
+ 
+}
+.logo>img {
+  
+  height: 100px;
+  
+  padding: 30px;;
+
+  
+}
+
+
+.gradient-background {
+  background: linear-gradient(300deg, #02aab0,#43cea2, #00cdac);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+#head-ul{
+  text-align: right !important;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+.card-body{
+  padding-right:100px;
+  padding-left:100px ;
+}
+
+.copyright{
+  display: flex;
+  gap:3px;
+}
